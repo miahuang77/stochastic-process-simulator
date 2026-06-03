@@ -14,11 +14,16 @@ In particular, financial returns exhibit volatility clustering, heavy tails, and
 
 This observation motivates a transition toward more sophisticated models that can capture time-varying volatility. In particular, the presence of volatility clustering suggests that volatility itself follows a dynamic process rather than remaining constant through time. This insight motivates the following projects to introduce the ARCH/GARCH family of models.
 
+If the notebooks can not render properly, visit:
+- [Random Walk](https://miahuang77.github.io/stochastic-process-simulator/01_random_walk.html)
+- [Brownian Motion](https://miahuang77.github.io/stochastic-process-simulator/02_brownian_motion.html)
+- [Geometric Brownian Motion](https://miahuang77.github.io/stochastic-process-simulator/03_geometric_brownian_motion.html)
+
 ---
 
 ## Project Structure
 
-### 1. Random Walk  
+### 1. Random Walk
 
 The discrete random walk serves as the conceptual foundation for continuous-time stochastic processes.
 
@@ -66,7 +71,7 @@ This phenomenon is inconsistent with the constant-volatility assumption embedded
 
 Extreme market events occur more frequently than predicted by the normal distribution implied by GBM.
 
-#### Jumps
+### Jumps
 
 GBM assumes that prices evolve continuously through Brownian motion. In reality, markets occasionally experience abrupt discontinuous movements caused by earnings announcements, macroeconomic news, geopolitical events, or financial crises.
 
